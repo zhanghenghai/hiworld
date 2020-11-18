@@ -5,6 +5,8 @@
  */
 public class HiWorld {
     public static void main(String[] args) {
-        System.out.println("hiworld");
+        String s=null;
+        int length=s.length();
+        System.out.println("空指针异常"+length);
     }
 }
